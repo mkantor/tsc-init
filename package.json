@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "rm -rf ./dist && npm run build && ./index.js",
+    "start": "tsc --build --clean && tsc && ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
