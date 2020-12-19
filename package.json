@@ -6,7 +6,7 @@
     "start": "tsc --build --clean && tsc && ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
+  "devDependencies": {
     "typescript": "latest"
   }
 }
