@@ -2,6 +2,7 @@
   "name": "",
   "version": "0.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "tsc --build --clean && tsc && ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
