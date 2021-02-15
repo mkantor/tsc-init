@@ -2,7 +2,6 @@
   "name": "",
   "version": "0.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "rm -rf dist && tsc --build && ./index.js"
   },
