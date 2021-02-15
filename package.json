@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "tsc --build --clean && tsc --build && ./index.js"
+    "start": "rm -rf dist && tsc --build && ./index.js"
   },
   "devDependencies": {
     "typescript": "latest"
