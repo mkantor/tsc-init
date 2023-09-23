@@ -1,9 +1,10 @@
 {
   "name": "",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "type": "module",
   "scripts": {
-    "start": "rm -rf dist && tsc --build && ./index.js"
+    "start": "rm -rf dist *.tsbuildinfo && tsc --build && node ."
   },
   "devDependencies": {
     "typescript": "latest"
