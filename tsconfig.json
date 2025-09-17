@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "module": "NodeNext",
+    "module": "nodenext",
     "outDir": "dist",
     "rootDir": "src",
     "strict": true,
-    "target": "ESNext"
+    "target": "esnext"
   }
 }
